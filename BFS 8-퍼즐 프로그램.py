@@ -16,7 +16,6 @@ class State:
 #자식 노드를 확장해서 리스트에 저장해서 반환
     def expand(self,depth):
         result = []
-        new_board = []
         i = self.board.index(0) #0의 위치를 i에 저장
         if not i in [0,3,6]: #왼쪽으로 이동할수 있다면 왼쪽이동
             result.append(self.get_new_board(i,i-1,depth))
