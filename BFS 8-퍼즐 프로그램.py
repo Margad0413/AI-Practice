@@ -1,4 +1,4 @@
-#65쪽 BFS와 DFS 8-퍼즐 프로그램
+#BFS 8-퍼즐 프로그램
 
 #상태 클래스
 class State:
