@@ -1,3 +1,5 @@
+#유전자 알고리즘
+
 import random
 
 POPULATION_SIZE = 4
